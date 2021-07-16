@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    border: 1px solid #660027;
+    width: 65%;
+    border-radius: 5px;
+}
+
+aside{
+    background: #660027;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul{
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: black;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+
+    padding: 5% 15%;
+}
+
+.contato h3{
+    align-self: center;
+}
+
+label{
+    margin-top: 15px;
+}
+
+.contato input,
+.contato textarea{
+    border: 1px solid #660027 ;
+
+}
+
+.contato input{
+    height: 42px;
+}
+
+.contato button{
+    background: #660027;
+    padding: 10px 10px;
+    width: 128px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+
+}
